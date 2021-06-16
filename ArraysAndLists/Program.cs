@@ -10,7 +10,11 @@ namespace ArraysAndLists
             //TODO:
 
             // Create an int Array and populate numbers 1-10
-            int[] num = new int[] {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+            int[] num = new int[10];
+            for (int i = 0; i < num.Length; i++)
+			{
+                num[i] = i + 1;
+			}
 
             /* Create two Lists of type int.
              * Name one List "evens"
